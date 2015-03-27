@@ -1,5 +1,5 @@
  <?php
-$link = mysql_connect ('23.95.25.103', 'mohamedj_memo', 'memomemo') or die ("Impossible de se connecter");
+$link = mysql_connect ('server.ab7athy.com', 'mohamedj_memo', 'memomemo') or die ("Impossible de se connecter");
 mysql_select_db ("mohamedj_memo")or die ("Impossible d'accéder à la base de données");
 $sql="SELECT * FROM book";
 $result=mysql_query($sql);
